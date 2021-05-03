@@ -1,0 +1,18 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "8200 AC Exercise for Backend Position, Noam Azoulay.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Noam Azoulay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-unique-validator": "^2.0.3"
+  }
+}
