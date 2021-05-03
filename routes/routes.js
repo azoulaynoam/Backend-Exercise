@@ -7,7 +7,7 @@ module.exports = function(app) {
 
     app.route('/tweets')
         .get(tweets.get_tweets)
-        .post(tweets.create_new_tweet)
+        .post(tweets.tweet)
     
     app.route('/tweets/:id/retweet')
         .post(tweets.tweet_validator, retweets.retweet)

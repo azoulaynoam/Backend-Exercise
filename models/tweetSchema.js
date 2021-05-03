@@ -2,10 +2,6 @@ var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
 var tweetSchema = new Schema({
-    id: {
-        type: Number,
-        unique: true
-    },
     content: {
         type: String,
         required: true
